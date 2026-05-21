@@ -6,15 +6,21 @@
 
 **Babbage**  diseñó esta máquina para sistematizar el cálculo y la tabulación de funciones polinómicas. Un dispositivo mecánico de gran escala, compuesto de engranajes que servía para resolver ecuaciones e imprimir los resultados en forma de tablas matemáticas.
 
+---
+
 ##  Máquina Diferencial II (1991) 
 
 El Museo de Ciencias de Londres construyó la *Difference Engine N2*  siguiendo los planos originales para celebrar el bicentenario del nacimienito de Babbage.
+
+---
 
 ## Máquina Analítica (1834-1837)  
 
 **La primera máquina de cálculo completamente automática.**  
 
 Fue diseñada para realizar cualquier cálculo anterior y tener una capacidad de análisis superior. 
+
+---
 
 ## Telar de Jacquard (1801) 
 
@@ -26,6 +32,8 @@ Fue diseñada para realizar cualquier cálculo anterior y tener una capacidad de
     * Hardware y Software: Con Jacquard la máquina no cambia, solo cambias las tarjetas (el programa) y obtienes un resultado totalmente distinto.
     * El sistema binario: La ausencia o presencia de materia (agujero o cartón) determinada una acción. Paso de corriente v/s **no** paso de corriente.
     * El píxel y la imágen rasterizada: La tela constituye la rejilla *(grid)* de soporte, donde cada intersección entre trama y urdimbre funciona como un píxel indicvidual. La tarjeta perforada opera como el archivo digital *(el .jpg)*, emviando las intrucciones precisas sobre qué puntos activar para componer la imágen visual.
+
+ ---
  
 ## Ada Lovelace
 
@@ -33,6 +41,7 @@ Matemática y escritora británica, conocida por su trabajo pionero en el campo 
 
 Entre 1842 y 1843 creo un conjunto de algoritmos, para que la máquina calculase una serie de **números de Bernoulli**. Estos algoritmos se consideran como el **primer programa de computación**, convirtiendola en la primera programadora de la historia.
 
+---
 
 ## La máquina de Turning 
 
@@ -40,13 +49,18 @@ Entre 1842 y 1843 creo un conjunto de algoritmos, para que la máquina calculase
 * Define la **Computabilidad Universal** : demostró que una máquina simple, con las instrucciones correctas, puede simular cualquier otra máquina.
 * El Hardware se vuelve irrelevante, lo que importa es el código.
 
+---
 
 # El despertar visual
+
+---
 
 ## Artistas y Algoritmos
 
 * John y James Whitney: Recuperó un **computador analógico de la Segunda Guerra Mundial** y lo modificó; convirtió los voltajes en movimientos de cámara y luz para pintar sobre celuloide (Introducen el concepto de Diseño Paramétrico y Movimiento Armónico).
 * Sketchpad Ivan Sutherland: Creío el primer programa informático que permitía dibujar directamente en una pantalla usando un **lápiz óptico**.
+
+---
 
 # Democratización del Creative Coding 
 
@@ -72,13 +86,63 @@ Principios fundamentales adicionales de la FSF:
 |  FSF.  |  OSI.  |
 |  Richard Stallman.  |  Eric Raymond / Bruce Perens.  |
 
+---
+## Desing By Numbers
+
+Experimento educativo radical, lanzado en **1999** por **Jonh Maeda**. El cual consistí en un lenguaje de programación y entorno diseñado para enseñar a diseñadores visuales a programar.
+
+* Cuadrícula fija de 100x100 pixeles.
+* Solo existía el "porcentaje de tinta": 0 = blanco / 100 = negro.
+* Eliminó los puntos y comas, las llaves complejas y las declaraciones de tipos de variables.
+
+---
+
+### Jonh Maeda
+
+* Tecnología + Arte + Diseño.
+* Director ACG en el MIT Media Lab.
+* Presidente de la RISD.
+* Vicepresidente de Diseño e IA en MIcrosoft
+
+---
+
+## Processing
+
+Software libre, de código abierto y gratuito, diseñado para la enseñanza de programación en contextos visuales, permite a artistas, diseñadores y principiantes crear gráficos, animaciones e interacciones, estando disponible para Windows, macOS y Linux.
+
+* Creado en el 2001 por 2 estudiantes del MIT: Casey Reas y Ben Fry.
+* Expandir las limitaciones de Desing By Numbers (DBN).
+* Agregaron paleta de color y tamaño variable.
+* Mantuvieron simple el código y sketchbook.
+
+---
+
+## P5.Js
+
+* Lauren Mccarthy
+* Es una herramienta para aprender a programar y hacer arte. Es una biblioteca de **JavaScript libre** y de código abierto.
+* Hace que dibujar con códigos sea como dibujar en un cuaderno.
+* Permite obras audiovisuales, interactivas y experimentales para la web.
+
+---
+
 # sesión 03 - 27/03
 
 # GITHUB MARKDOWN
 
+---
+
 *Github es una plataforma que permite almacenar, gestionar y compartir código. Facilitando la colaboración, seguimiento de cambios y desarrollo de proyectos software.
 
 *Markdown es una forma de escribir texto con formato añadiendo marcas y carácteres simples.
+
+---
+
+## Saltos de línea
+
+* Párrafo nuevo: Enter dos veces.
+* Bajar una línea: Dos espacios al final + Enter.
+* Forzar el salto: <br> 
 
 # Título 1
 ## Título 2
@@ -117,4 +181,6 @@ Principios fundamentales adicionales de la FSF:
 [imagengato](https://static.nationalgeographicla.com/files/styles/image_3200/public/75552.webp?w=1600&h=900)
 
 [![Gato](https://static.nationalgeographicla.com/files/styles/image_3200/public/75552.webp?w=1600&h=900)](https://www.nationalgeographicla.com/animales/gato-domestico)
+
+
 
