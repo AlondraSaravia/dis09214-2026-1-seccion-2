@@ -182,5 +182,12 @@ Software libre, de código abierto y gratuito, diseñado para la enseñanza de p
 
 [![Gato](https://static.nationalgeographicla.com/files/styles/image_3200/public/75552.webp?w=1600&h=900)](https://www.nationalgeographicla.com/animales/gato-domestico)
 
+---
 
+# **Bloques de código**
+
+```python
+print("Holaaa")
+```
+Sirven para separar visualmente el código del texto normal y que Github lo lea correctamente. También ayudan a que el código quede mucho más fácil de copiar y entender.
 
