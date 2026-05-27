@@ -1,4 +1,6 @@
-# sesión 07 - 15/05
+# LOOPS, WHILE & FOR
+---
+
 
 ## loop: es una estructura de control que permite ejecutar un bloque dee intrucciones de manera repetida mientras se cumpla una condición específica o hasta que se alcance un estado determinado.
 
