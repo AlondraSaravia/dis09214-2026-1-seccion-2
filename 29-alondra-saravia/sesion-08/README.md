@@ -90,6 +90,6 @@ El usuario actúa como agente externo que modifica el sistema, generando una sim
 
 ##  Diagrama de flujo
 
-![Diagrama de flujo del sistema](diagrama.png)
+
 
 ---
