@@ -1,0 +1,116 @@
+# Exámen
+
+# Poder y Desigualdad
+
+## Autor/a
+
+Alondra Saravia Zenteno
+
+---
+
+## Descripción objetiva
+
+### ¿Qué es el proyecto?
+Este proyecto es una instalación interactiva desarrollada en p5.js que representa visualmente una dinámica de poder entre dos figuras (hombre y mujer) dentro de un sistema dividido en dos espacios.
+
+### ¿Qué se ve en pantalla?
+- Un lienzo dividido en dos zonas: azul (hombre) y rosado (mujer)
+- Dos personajes principales (imágenes)
+- Frases flotantes asociadas a cada género
+- Formas animadas en movimiento
+- Un sistema de estados (inicio, interacción, final)
+
+### ¿Qué elementos visuales aparecen?
+- Imágenes del hombre y la mujer
+- Texto dinámico
+- Figuras geométricas animadas
+- Fondo dividido por color
+- Sistema de movimiento y crecimiento visual
+
+---
+
+##  Descripción conceptual
+
+### Idea central del proyecto
+El proyecto representa cómo el espacio visual simboliza el poder social. La división del canvas funciona como una metáfora de desigualdad estructural.
+
+### Regla del sistema
+> “A mayor dominio del lado azul, menor espacio y visibilidad del lado rosado”
+
+El sistema responde dinámicamente a la interacción del usuario, modificando posiciones y equilibrio visual.
+
+### Relación con la problemática de género
+El proyecto representa desigualdad estructural de género:
+- El lado azul simboliza privilegio masculino
+- El lado rosado simboliza carga y subrepresentación femenina
+- El usuario puede alterar el equilibrio, mostrando cómo el poder es dinámico pero desigual
+
+---
+
+## Input / Output / Sistema
+
+### INPUT (entradas)
+- Mouse (clic sobre personajes)
+- Teclado (ENTER, R, flechas)
+- Posición del usuario (mouseX / mouseY)
+
+### PROCESO
+- Se detecta interacción del usuario
+- Se modifican variables del sistema:
+  - `divisionX`
+  - posiciones de personajes
+  - estado del sistema
+- Se aplican funciones matemáticas:
+  - `map()` → transforma dominio visual
+  - `random()` → genera variación orgánica
+  - `constrain()` → limita movimiento
+
+### OUTPUT
+- Cambio visual en la división del espacio
+- Crecimiento o reducción de personajes
+- Movimiento de frases animadas
+- Cambio de estado (inicio → interacción → final)
+
+---
+
+## Pensamiento computacional
+
+### Reglas del sistema
+- Si el usuario interactúa con el hombre → aumenta dominio azul
+- Si interactúa con la mujer → aumenta equilibrio del sistema
+- Si la división llega al límite → se activa estado final
+- El sistema siempre mantiene límites (constrain)
+
+### Interactividad
+El usuario no solo observa, sino que modifica el sistema en tiempo real mediante decisiones simples (clic y teclado), afectando la estructura visual del espacio.
+
+---
+
+## Referentes
+
+- **Hans Rosling – visualización de datos dinámicos**
+  Representación de sistemas sociales mediante datos visuales.
+
+- **Jenny Holzer – lenguaje como sistema visual**
+  Uso de frases como construcción de significado social.
+
+---
+
+## Diagrama de flujo
+
+```markdown
+INPUT (mouse / teclado)
+        ↓
+Interacción del usuario
+        ↓
+Modificación de variables
+(divisionX, posiciones, estados)
+        ↓
+Aplicación de reglas del sistema
+(if / else / map / constrain)
+        ↓
+RENDER VISUAL
+(imágenes + texto + formas)
+        ↓
+OUTPUT FINAL
+(cambio de poder visual)
